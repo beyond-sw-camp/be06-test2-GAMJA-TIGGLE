@@ -1,20 +1,35 @@
-package org.example.springdb.tiggle.program.DTO.request;
+package org.example.springdb.tiggle.program.model;
 
+public class ProgramCreateReq {
+    // 이따 datetime으로 바꿔주기
 
+    private String programName;
+    private String programInfo;
+    private String resvationOpenDate;
+    private String resvationCloseDate;
+    private String imgUrl;
+    private int age;
+    private int runtime;
+    private String sallerInfo;
+    private String ProgramStartDate;
+    private String ProgramEndDate;
 
-public class ProgramRegisterReq {
-    String programName;
-    String programInfo;
-    String resvationOpenDate;
-    String resvationCloseDate;
-    String imgUrl;
-    Integer age;
-    Integer runtime;
-    String sallerInfo;
-    String ProgramStartDate;
-    String ProgramEndDate;
+    public ProgramCreateReq() {
+    }
 
-    // 생성자는 사용하지말 것
+    public ProgramCreateReq(String programName, String programInfo, String resvationOpenDate, String resvationCloseDate, String imgUrl, int age, int runtime, String sallerInfo, String programStartDate, String programEndDate) {
+        this.programName = programName;
+        this.programInfo = programInfo;
+        this.resvationOpenDate = resvationOpenDate;
+        this.resvationCloseDate = resvationCloseDate;
+        this.imgUrl = imgUrl;
+        this.age = age;
+        this.runtime = runtime;
+        this.sallerInfo = sallerInfo;
+        ProgramStartDate = programStartDate;
+        ProgramEndDate = programEndDate;
+    }
+
     public String getProgramName() {
         return programName;
     }
@@ -55,28 +70,20 @@ public class ProgramRegisterReq {
         this.imgUrl = imgUrl;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public Integer getRuntime() {
+    public int getRuntime() {
         return runtime;
     }
 
-    public void setRuntime(Integer runtime) {
+    public void setRuntime(int runtime) {
         this.runtime = runtime;
-    }
-
-    public String getSallerInfo() {
-        return sallerInfo;
-    }
-
-    public void setSallerInfo(String sallerInfo) {
-        this.sallerInfo = sallerInfo;
     }
 
     public String getProgramStartDate() {
@@ -87,6 +94,14 @@ public class ProgramRegisterReq {
         ProgramStartDate = programStartDate;
     }
 
+    public String getSallerInfo() {
+        return sallerInfo;
+    }
+
+    public void setSallerInfo(String sallerInfo) {
+        this.sallerInfo = sallerInfo;
+    }
+
     public String getProgramEndDate() {
         return ProgramEndDate;
     }
@@ -94,6 +109,6 @@ public class ProgramRegisterReq {
     public void setProgramEndDate(String programEndDate) {
         ProgramEndDate = programEndDate;
     }
+
+
 }
-
-
