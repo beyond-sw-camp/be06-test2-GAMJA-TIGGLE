@@ -1,4 +1,4 @@
-package org.example.tiggle.config;
+package org.example.springdb.tiggle.config;
 
 public enum BaseResponseMessage {
 

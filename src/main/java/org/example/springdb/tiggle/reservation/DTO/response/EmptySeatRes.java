@@ -1,4 +1,4 @@
-package org.example.tiggle.reservation.DTO.response;
+package org.example.springdb.tiggle.reservation.DTO.response;
 
 import java.util.Date;
 

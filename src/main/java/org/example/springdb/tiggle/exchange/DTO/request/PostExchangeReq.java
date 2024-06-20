@@ -1,4 +1,4 @@
-package org.example.tiggle.exchange.DTO.request;
+package org.example.springdb.tiggle.exchange.DTO.request;
 
 public class PostExchangeReq {
     Integer programId;

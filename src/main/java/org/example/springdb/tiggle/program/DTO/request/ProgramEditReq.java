@@ -1,4 +1,4 @@
-package org.example.tiggle.program.DTO.request;
+package org.example.springdb.tiggle.program.DTO.request;
 
 public class ProgramEditReq {
     Integer programId;

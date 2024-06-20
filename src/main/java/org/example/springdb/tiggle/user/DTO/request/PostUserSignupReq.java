@@ -1,4 +1,4 @@
-package org.example.tiggle.user.DTO.request;
+package org.example.springdb.tiggle.user.DTO.request;
 
 public class PostUserSignupReq {
     String id;

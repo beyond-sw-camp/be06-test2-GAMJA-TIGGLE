@@ -1,6 +1,6 @@
-package org.example.tiggle.config;
+package org.example.springdb.tiggle.config;
 
-import org.example.tiggle.config.BaseResponseMessage;
+import org.example.springdb.tiggle.config.BaseResponseMessage;
 
 public class BaseResponse<T> {
     private Boolean success;

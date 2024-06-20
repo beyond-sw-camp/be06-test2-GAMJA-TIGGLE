@@ -1,4 +1,4 @@
-package org.example.tiggle.reservation.DTO.request;
+package org.example.springdb.tiggle.reservation.DTO.request;
 
 public class EmptySeatReq {
     private Integer programId;

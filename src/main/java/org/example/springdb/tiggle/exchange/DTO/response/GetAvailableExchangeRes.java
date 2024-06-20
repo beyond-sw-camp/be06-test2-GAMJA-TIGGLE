@@ -1,4 +1,4 @@
-package org.example.tiggle.exchange.DTO.response;
+package org.example.springdb.tiggle.exchange.DTO.response;
 
 public class GetAvailableExchangeRes {
     private Integer seatId;
