@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: ${LOCAL_URL}
+    username: ${LOCAL_USERNAME}
+    password: ${LOCAL_PASSWORD}
+    driver-class-name: org.mariadb.jdbc.Driver
+  application:
+    name: springDB
+
+
+

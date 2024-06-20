@@ -1,0 +1,15 @@
+//            pstmt = connection.prepareStatement("INSERT INTO program (locationId, categoryId, programName, programInfo, reservationOpenDate, reservationCloseDate, imgUrl, age, runtime, salerInfo, createdAt, modifiedAt, programStartDate, programEndDate) VALUES (?, ?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ?, ?, ?)");
+//            pstmt.setString(1,  "1");
+//            pstmt.setString(2, "1");
+//            pstmt.setString(3, registerDto.getProgramName());
+//            pstmt.setString(4, registerDto.getProgramInfo());
+//            pstmt.setString(5, registerDto.getResvationOpenDate().toString());
+//            pstmt.setString(6, registerDto.getResvationCloseDate().toString());
+//            pstmt.setString(7, registerDto.getImgUrl());
+//            pstmt.setString(8, registerDto.getAge().toString());
+//            pstmt.setString(9, registerDto.getRuntime().toString());
+//            pstmt.setString(10, registerDto.getSallerInfo());
+//            pstmt.setString(11, strCreatedDate);
+//            pstmt.setString(12, null);
+//            pstmt.setString(13, registerDto.getProgramStartDate().toString());
+//            pstmt.setString(14, registerDto.getProgramEndDate().toString());
